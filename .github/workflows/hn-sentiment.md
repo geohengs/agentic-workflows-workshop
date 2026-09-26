@@ -4,7 +4,7 @@ on:
   issue_comment:
     types: [created]
 permissions:
-  issues: write
+  issues: read
   contents: read
 network:
   allowed:
