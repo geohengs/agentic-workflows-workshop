@@ -4,14 +4,13 @@ on:
   issue_comment:
     types: [created]
 permissions:
-  issues: read
+  issues: write
   contents: read
-  pull-requests: read
 network:
   allowed:
     - hacker-news.firebaseio.com
 tools:
-  github: null
+  - web-fetch
 safe-outputs:
   add-comment:
     max: 1
