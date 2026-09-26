@@ -10,7 +10,7 @@ network:
   allowed:
     - hacker-news.firebaseio.com
 tools:
-  - web-fetch
+  web-fetch: null
 safe-outputs:
   add-comment:
     max: 1
