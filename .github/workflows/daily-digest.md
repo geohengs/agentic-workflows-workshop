@@ -1,11 +1,11 @@
 ---
 name: Daily Digest
-model: gpt-4o
 on:
   schedule: daily on weekdays
   workflow_dispatch:
 permissions:
   issues: read
+  pull-requests: read
   contents: read
 safe-outputs:
   create-issue:
